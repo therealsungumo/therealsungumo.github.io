@@ -1,3 +1,4 @@
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #0c0c0c;
@@ -19,6 +20,14 @@ body {
 
 .layout_padding2-bottom {
   padding-bottom: 75px;
+}
+
+.logo-image{
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
 }
 
 .layout_padding-top {
@@ -802,9 +811,9 @@ a:focus {
 }
 
 .client_section .box .img-box {
-  width: 125px;
-  height: 125px;
-  min-width: 125px;
+  width: 300px;
+  height: 300px;
+  min-width: 300px;
   border-radius: 30px;
   overflow: hidden;
   margin-right: -65px;
@@ -829,15 +838,20 @@ a:focus {
   font-weight: bold;
   color: #252525;
   margin-bottom: 0;
+  text-align: center;
   text-transform: uppercase;
+  line-height: 200px;
+  height: 200px;
+  text-align: center;
 }
 
 .client_section .box .client_info .client_name h6 {
+  font-weight: bold;
+  color: #252525;
   margin-bottom: 0;
-  color: #f07b26;
-  font-weight: normal;
-  font-size: 15px;
+  text-align: center;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .client_section .box .client_info i {
