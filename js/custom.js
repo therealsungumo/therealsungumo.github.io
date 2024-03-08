@@ -35,7 +35,7 @@ var owl = $('.project_carousel').owlCarousel({
             items: 3
         }
     }
-})
+}) 
 
 
 // owl.owlcarousel2_filter
